@@ -2,6 +2,13 @@
 name = "unit-ext"
 version = "0.1.0"
 edition = "2024"
+description = "Fluent helpers for returning common wrapper values from the unit type."
+license = "MIT OR Apache-2.0"
 readme = "README.md"
+repository = "https://github.com/viktorlott/unit-ext"
+homepage = "https://github.com/viktorlott/unit-ext"
+documentation = "https://docs.rs/unit_ext"
+keywords = ["fluent", "unit", "return", "helpers", "zst"]
+categories = ["development-tools", "rust-patterns"]
 
 [dependencies]
