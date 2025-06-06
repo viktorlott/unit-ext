@@ -7,7 +7,7 @@ It extends the unit type with ergonomic methods for returning common wrapper val
 `Ok`, `Err`, `Some`, `None`, and `Default`. These helpers are particularly useful when you want
 to inject side effects (like logging or metrics) while preserving functional control flow.
 
-```rust
+```rust,ignore
 Some(10)
     .filter(|n| n > &5)// Return None if there's no match
     .map(|n| n * 2)//                          |
@@ -59,7 +59,7 @@ hand.
 
 #### 1. `map_or_else` with side-effect logging  
 
-```rust
+```rust,ignore
 use unit_ext::UnitExt;
 
 let value: Option<_> = if cfg!(target_pointer_width = 64) {
