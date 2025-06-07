@@ -1,6 +1,6 @@
 [package]
 name = "unit-ext"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "Fluent helpers for returning common wrapper values from the unit type."
 license = "MIT OR Apache-2.0"
